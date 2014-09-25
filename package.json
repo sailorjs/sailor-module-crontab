@@ -1,0 +1,42 @@
+{
+  "name": "sailor-module-crontab",
+  "description": "Schedule and run jobs like UNIX Crontab style",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "dependencies": {
+    "node-schedule": "*"
+    },
+  "devDependencies": {
+    "coffee-script": "*",
+    "grunt": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-translate-compile": "git://github.com/sailorjs/translate-compile",
+    "load-grunt-tasks": "*",
+    "mocha": "*",
+    "sailor-scripts": "git://github.com/sailorjs/sailor-scripts",
+    "should": "*",
+    "superagent": "*"
+  },
+  "engines": {},
+  "homepage": "",
+  "keywords": [
+    "sailor",
+    "module",
+    "crontab",
+    "job",
+    "schedule"
+  ],
+  "license": "MIT",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sailorjs/sailor-module-crontab.git"
+  },
+  "scripts": {
+    "test": "sh test/test.sh"
+  }
+}
