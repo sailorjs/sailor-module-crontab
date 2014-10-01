@@ -26,8 +26,11 @@ declare in `config/crontab` your jobs, like:
 
 Each minute write in terminal "Hello World"
 
-```
-'* * * * * *' : -> console.log "Hello World"
+```coffee
+module.exports.crontab =
+
+  # eg: Print 'hello world' each minute
+  '* * * * * *': -> console.log 'Hello World'
 ```
 
 ## Additional
@@ -49,5 +52,3 @@ Remember cron format:
 Check [cron documentation](http://www.nncron.ru/help/EN/working/cron-format.htm) for more information and examples.
 
 MIT © sailorjs
-
-
